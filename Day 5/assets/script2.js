@@ -3,7 +3,7 @@ let colors ={
     green:"00FF00",
     white:"FFFFFF"
   };
-  let result = []
+  // let result = []
   result = Object.entries(colors);
   console.log(result);
 

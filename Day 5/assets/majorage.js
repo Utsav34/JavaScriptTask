@@ -7,4 +7,4 @@ let majorMin = {
         }
     }
 }
-console.log(majorMin.age(20));
+console.log(majorMin.age(16));
