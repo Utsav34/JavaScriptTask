@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SO question 3377468</title>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#form').submit(function() {
+                    $('#progress').show();
+                });
+            });
+        </script>
+        <style>
+            #progress { 
+                display: none;
+                color: green; 
+            }
+        </style>            
+    </head>
+    <body>
+        <form id="form" action="servlet-url" method="post">
+            ...
+            <input type="submit">
+        </form>
+        <div id="progress">Please wait...</div>
+    </body>
+</html>
